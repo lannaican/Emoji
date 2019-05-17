@@ -1,4 +1,4 @@
-package com.star.plugin.emoji.view.picker;
+package com.star.emoji.view.picker;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -10,11 +10,11 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.star.plugin.emoji.EmojiManager;
-import com.star.plugin.emoji.R;
-import com.star.plugin.emoji.RecentEmojiManager;
-import com.star.plugin.emoji.model.EmojiCategory;
-import com.star.plugin.emoji.model.RecentEmoji;
+import com.star.emoji.EmojiManager;
+import com.star.emoji.R;
+import com.star.emoji.RecentEmojiManager;
+import com.star.emoji.model.EmojiCategory;
+import com.star.emoji.model.RecentEmoji;
 
 import androidx.viewpager.widget.ViewPager;
 

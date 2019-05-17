@@ -1,12 +1,12 @@
-package com.star.plugin.emoji;
+package com.star.emoji;
 
 import android.content.Context;
 import android.text.Spannable;
 import android.text.TextUtils;
 
-import com.star.plugin.emoji.model.Emoji;
-import com.star.plugin.emoji.model.EmojiCategory;
-import com.star.plugin.emoji.model.EmojiRange;
+import com.star.emoji.model.Emoji;
+import com.star.emoji.model.EmojiCategory;
+import com.star.emoji.model.EmojiRange;
 
 import java.util.ArrayList;
 import java.util.Collections;

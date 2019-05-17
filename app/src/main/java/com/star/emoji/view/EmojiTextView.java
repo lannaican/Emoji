@@ -1,4 +1,4 @@
-package com.star.plugin.emoji.view;
+package com.star.emoji.view;
 
 import android.content.Context;
 import android.graphics.Paint;
@@ -7,7 +7,7 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 
 
-import com.star.plugin.emoji.EmojiManager;
+import com.star.emoji.EmojiManager;
 
 import androidx.annotation.CallSuper;
 import androidx.appcompat.widget.AppCompatTextView;

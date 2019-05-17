@@ -1,7 +1,7 @@
-package com.star.plugin.emoji;
+package com.star.emoji;
 
 
-import com.star.plugin.emoji.model.EmojiCategory;
+import com.star.emoji.model.EmojiCategory;
 
 import androidx.annotation.NonNull;
 

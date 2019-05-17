@@ -1,10 +1,10 @@
-package com.star.plugin.emoji;
+package com.star.emoji;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.star.plugin.emoji.model.Emoji;
-import com.star.plugin.emoji.model.RecentEmoji;
+import com.star.emoji.model.Emoji;
+import com.star.emoji.model.RecentEmoji;
 
 import java.util.ArrayList;
 import java.util.Collection;

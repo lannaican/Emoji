@@ -1,11 +1,11 @@
-package com.star.plugin.emoji.view.picker;
+package com.star.emoji.view.picker;
 
 import android.content.Context;
 import android.widget.GridView;
 
-import com.star.plugin.emoji.R;
-import com.star.plugin.emoji.model.EmojiCategory;
-import com.star.plugin.emoji.view.picker.listener.OnEmojiClickListener;
+import com.star.emoji.R;
+import com.star.emoji.model.EmojiCategory;
+import com.star.emoji.view.picker.listener.OnEmojiClickListener;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

@@ -1,4 +1,4 @@
-package com.star.plugin.emoji;
+package com.star.emoji;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -6,7 +6,7 @@ import android.graphics.Paint;
 import android.graphics.drawable.Drawable;
 import android.text.style.DynamicDrawableSpan;
 
-import com.star.plugin.emoji.model.Emoji;
+import com.star.emoji.model.Emoji;
 
 import androidx.annotation.NonNull;
 

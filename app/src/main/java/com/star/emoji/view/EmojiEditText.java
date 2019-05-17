@@ -1,13 +1,13 @@
-package com.star.plugin.emoji.view;
+package com.star.emoji.view;
 
 import android.content.Context;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.KeyEvent;
 
-import com.star.plugin.emoji.EmojiManager;
-import com.star.plugin.emoji.model.Emoji;
-import com.star.plugin.emoji.view.picker.EditInterface;
+import com.star.emoji.EmojiManager;
+import com.star.emoji.model.Emoji;
+import com.star.emoji.view.picker.EditInterface;
 
 import androidx.annotation.CallSuper;
 import androidx.appcompat.widget.AppCompatEditText;

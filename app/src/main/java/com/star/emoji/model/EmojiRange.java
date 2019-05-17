@@ -1,4 +1,4 @@
-package com.star.plugin.emoji.model;
+package com.star.emoji.model;
 
 import androidx.annotation.NonNull;
 

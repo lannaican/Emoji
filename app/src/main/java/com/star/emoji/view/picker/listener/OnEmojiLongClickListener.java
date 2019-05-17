@@ -1,8 +1,8 @@
-package com.star.plugin.emoji.view.picker.listener;
+package com.star.emoji.view.picker.listener;
 
 
-import com.star.plugin.emoji.model.Emoji;
-import com.star.plugin.emoji.view.picker.EmojiImageView;
+import com.star.emoji.model.Emoji;
+import com.star.emoji.view.picker.EmojiImageView;
 
 import androidx.annotation.NonNull;
 

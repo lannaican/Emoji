@@ -1,7 +1,7 @@
-package com.star.plugin.emoji.view.picker;
+package com.star.emoji.view.picker;
 
 
-import com.star.plugin.emoji.model.Emoji;
+import com.star.emoji.model.Emoji;
 
 /**
  * Detail：
