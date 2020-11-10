@@ -26,6 +26,8 @@ public final class EmojiPicker extends LinearLayout implements ViewPager.OnPageC
     private TextView[] emojiTabs;
     private EmojiPagerAdapter emojiPagerAdapter;
 
+    private View dividerView;
+
     private EditInterface editInterface;
 
     private RecentEmoji recentEmoji;
@@ -59,6 +61,8 @@ public final class EmojiPicker extends LinearLayout implements ViewPager.OnPageC
         viewPager = findViewById(R.id.viewPager);
         viewPager.addOnPageChangeListener(this);
 
+        dividerView = findViewById(R.id.divider_view);
+
         final EmojiCategory[] categories = EmojiManager.getInstance().getCategories();
 
         LinearLayout tabLayout = findViewById(R.id.tab_layout);
@@ -70,9 +74,22 @@ public final class EmojiPicker extends LinearLayout implements ViewPager.OnPageC
         handleOnClicks(viewPager);
     }
 
+    /**
+     * 设置Tab颜色
+     */
     public void setTabColor(int color, int selectedColor) {
         this.tabColor = color;
         this.tabSelectColor = selectedColor;
+        for (int i=0; i<emojiTabs.length; i++) {
+            emojiTabs[i].setTextColor(i == tabIndex ? tabSelectColor : tabColor);
+        }
+    }
+
+    /**
+     * 设置分割线颜色
+     */
+    public void setDividerColor(int color) {
+        dividerView.setBackgroundColor(color);
     }
 
     @Override
